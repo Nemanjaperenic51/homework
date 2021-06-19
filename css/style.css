@@ -1,0 +1,92 @@
+* {
+    margin: 0ch;
+    padding: 0ch;
+}
+
+header {
+    background: url(../slike/152898438_10218758061970064_4883878944500636652_o.jpg) no-repeat;
+    background-size: cover;
+    height: 450px ;
+}
+
+a {
+    text-decoration: none;
+    color: cornsilk;
+
+}
+
+li {
+    list-style: none;
+}
+
+header nav ul li {
+    display: block;
+    float: right;
+    background-color: chocolate;
+    color: cornsilk;
+    padding: 5px;
+    margin-top: 15px;
+    margin-right: 1cm;
+    display: flex;
+    transition: background-color 2.6s ease-in-out;
+}
+
+header nav img {
+    height: 80px;
+    weight: 80px;
+}
+
+ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    color: orange;
+}
+
+
+hgroup {
+    text-align: center;
+    margin-top: 1.5cm;
+
+}
+
+h5 {
+    text-transform: uppercase;
+}
+
+.borderravan {
+    text-decoration-line: overline underline;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.borderisprekidani {
+    border: rgb(85, 85, 85) 2.4mm dashed;
+    margin-top: 10px;
+    margin-left: 3.6cm;
+    margin-right: 3.6cm;
+    padding: 12px;
+}
+
+.border-isprekidan {
+    border: rgb(85, 85, 85) 2.4mm dashed;
+    margin-top: 22px;
+    margin-left: 3.6cm;
+    margin-right: 3.6cm;
+    margin-bottom: 40px;
+    padding: 12px;
+    
+}
+
+
+footer {
+    padding: 50px 30px;
+    background: chocolate;
+
+}
+
+
+footer p {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
